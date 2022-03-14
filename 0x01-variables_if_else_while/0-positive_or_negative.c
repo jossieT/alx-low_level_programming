@@ -15,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if(n > 0)
 	{
-	       printf(n, "%d is positive number\n"
+	       printf(n, "%d is positive number\n")
         }
 	else if(n == 0)
 	{
@@ -23,7 +23,7 @@ int main(void)
         }	       
 	else( n < 0)
 	{
-               printf(n, "%d is Negative number\n"
+               printf(n, "%d is Negative number\n")
         }
                            	
 	return (0);
