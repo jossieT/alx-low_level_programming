@@ -8,19 +8,19 @@
  */
 void print_to_98(int n)
 {
-    int a = n;
-    if(a <= 98)
+   
+    if(n <= 98)
     {
-    for(a ; a <= 98; a++)
+    for(n ; n <= 98; n++)
     {
-        printf("%d ,", a);
+        printf("%d ,", n);
     }
     }
     else
     {
-        for(a ;a >= 98; a--)
+        for(n ;n >= 98; n--)
     {
-        printf("%d ,", a);
+        printf("%d ,", n);
     }
     }
     _putchar('\n');
