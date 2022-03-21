@@ -39,4 +39,3 @@ int string_length(char *pointer)
 	}
 	return (c);
 }
-
